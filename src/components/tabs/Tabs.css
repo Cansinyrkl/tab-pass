@@ -1,0 +1,22 @@
+.tabContainer {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  width: 100%;
+  font-size: 28px;
+  border: 2px solid black;
+}
+.tab {
+  width: 100%;
+  border-right: 2px solid black;
+  user-select: none;
+  text-align: center;
+  cursor: pointer;
+  transition: background-color 0.3s, color 1s;
+}
+.tab:hover {
+  background-color: darkgrey;
+  color: white;
+}
+.tab:last-child {
+  border: none;
+}

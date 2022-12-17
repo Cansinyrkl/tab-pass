@@ -1,0 +1,12 @@
+.contentContainer {
+  height: 30rem;
+  overflow: scroll;
+}
+.Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header {
+  font-size: 24px;
+}
